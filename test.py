@@ -15,8 +15,8 @@ fashion_mnist = keras.datasets.fashion_mnist
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
 # Establir el nom de les categories
-class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
-               'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+class_names = ['Samarreta / top', 'Pantaló', 'Pullover', 'Vestit', 'Abric',
+                'Sandalia', 'Samarreta', 'Sabatilla', 'Bossa', 'Botí'
 
 # Preprocessar les imatges
 # El valor de cada pixel pasa de ser 0-255 a 0-1
