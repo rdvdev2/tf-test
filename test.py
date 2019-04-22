@@ -16,7 +16,7 @@ fashion_mnist = keras.datasets.fashion_mnist
 
 # Establir el nom de les categories
 class_names = ['Samarreta / top', 'Pantaló', 'Pullover', 'Vestit', 'Abric',
-                'Sandalia', 'Samarreta', 'Sabatilla', 'Bossa', 'Botí'
+                'Sandalia', 'Samarreta', 'Sabatilla', 'Bossa', 'Botí']
 
 # Preprocessar les imatges
 # El valor de cada pixel pasa de ser 0-255 a 0-1
